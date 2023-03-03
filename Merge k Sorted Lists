@@ -1,4 +1,4 @@
-```ruby
+
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         list1 = []
@@ -12,4 +12,4 @@ class Solution:
             pointer1.next = x
             pointer1 = pointer1.next
         return pointer2.next
-```        
+      
